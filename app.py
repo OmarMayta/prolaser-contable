@@ -4,8 +4,8 @@ import pandas as pd
 import os
 
 # Configuración de Supabase
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_URL = os.getenv("https://woouwzzsajbmfbhragho.supabase.co")
+SUPABASE_KEY = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indvb3V3enpzYWpibWZiaHJhZ2hvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI4NjcyOTUsImV4cCI6MjA1ODQ0MzI5NX0.wiv0F8jsuW9M1ONuL6O2OpvXXhu1DL7PW_B4HVym4hQ")
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 st.title("Sistema Contable - ProLaser")
